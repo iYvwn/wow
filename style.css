@@ -4,7 +4,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.banner, .footer {
+.banner {
   text-align: center;
   background-color: #825eb8;
   color: white;
@@ -12,6 +12,7 @@ body {
 }
 
 .container {
+  flex: 1;
   display: flex;
 }
 
@@ -22,11 +23,15 @@ body {
 }
 
 .main-content {
-  width: 80%;
+  width: 60%;
   padding: 20px;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+.footer {
+  text-align: center;
+  background-color: #825eb8;
+  color: white;
+  padding: 20px;
+}
+
 }
